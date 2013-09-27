@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
                   'people wanted.'
 
   s.platform = :ios
+  s.requires_arc = true
   s.source_files = 'TDBadgedCell (xcode project)/TDBadgedCell.{h,m}'
 
   s.frameworks = 'QuartzCore'
